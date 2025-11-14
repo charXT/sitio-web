@@ -41,7 +41,7 @@ h3 {
   font-style: normal;
   text-align: center;
   font-size: 30px;
-  color: rgb(45, 44, 99);
+  color: rgb(165, 165, 210);
 }
 
 /*Texto en el cuerpo de la pagina*/
@@ -168,6 +168,7 @@ footer {
 
 /*Alinea el texto de los títulos h1,2,3, o etc con la clase .hdiv. Es decir, que estan dentro de contenedores*/
 .hdiv {
+  justify-self: center;
   text-align: center;
 }
 
