@@ -22,10 +22,10 @@ h1 {
   border: rgba(0, 0, 0, 0) solid 1px;
   border-radius: 100px;
   background-color: rgb(164, 226, 255);
-  width: fit-content;
+  max-width: fit-content;
   position: relative;
-  justify-self: center;
   padding: 0px 20px;
+  justify-self: center;
 }
 
 /*Cambia el color de los títulos h2*/
@@ -146,6 +146,7 @@ section {
   background-color: rgba(109, 157, 196, 0.856);
   border-radius: 50px;
   padding: 2rem;
+  overflow: visible;
 }
 
 /*Le da una margen superior a los contenedores*/
@@ -170,6 +171,8 @@ footer {
 .hdiv {
   justify-self: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Alinea el texto de los parrafos con la clase .pdiv. Es decir, que estan dentro de contenedores*/
