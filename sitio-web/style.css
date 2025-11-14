@@ -25,7 +25,8 @@ h1 {
   max-width: fit-content;
   position: relative;
   padding: 0px 20px;
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Cambia el color de los títulos h2*/
@@ -169,7 +170,8 @@ footer {
 
 /*Alinea el texto de los títulos h1,2,3, o etc con la clase .hdiv. Es decir, que estan dentro de contenedores*/
 .hdiv {
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -188,7 +190,8 @@ footer {
 
 /*Decoración para formulario dentro del div*/
 .formdiv {
-justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Posiciona los elementos del formulario*/
@@ -241,7 +244,8 @@ justify-self: center;
   background-color: rgba(42, 13, 204, 0.493);
   padding: 10px;
   vertical-align: middle;
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
   width: fit-content;
   padding: 20px 20px;
 }
@@ -266,7 +270,8 @@ table {
   border: rgb(31, 103, 161) solid 2px;
   border-radius: 20px;
   padding: 15px;
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Afecta a los elementos de las tablas*/
